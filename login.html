@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Kalyani</title>
+    <link rel="icon" type="image/x-icon" href="/IMAGE/favicon.ico">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
+</head>
+<body>
+<!-- navigation bar -->
+<section>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="/IMAGE/logo.png" alt="logo of ku"></a>
+        </div>    
+            <div class="menu">   
+                <ul>
+                    <li><a href="about.html">About Dets</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="placement.html">Placement</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+    </nav>
+    <hr>
+    </section>
+
+<!----------------- Login Page ------------------------------->
+    <div class="form-box">
+        <h1 id="form-h1">Login Here</h1>
+        <div class="input-box">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <input type="email" placeholder="Email Id">
+        </div>
+        <div class="input-box">
+            <i class="fa fa-key" aria-hidden="true"></i>
+            <input type="password" placeholder="Password" id="myInput">
+            <span class="eye" onclick="myFunction()">
+            <i id = "hide1" class="fa fa-eye" aria-hidden="true"></i>
+            <i id = "hide2" class="fa fa-eye-slash" aria-hidden="true"></i>
+        </span>
+        </div>
+        <button type="button" class="login-btn">Login</button>
+        <button type="button" class="login-btn">Create an account</button>
+    </div>
+
+<!-- footer  -->
+<footer class="footer1">
+    <a href="https://klyuniv.ac.in/academic/faculties/faculty-of-engineering-technology-management/department-of-engineering-technological-studies/"><p>Department of Engineering and Technological Studies</p><br></a>
+      <p>University of klayani, Kalyani Nadia</p><br>
+      <p>West Bengal - 741235, India</p>
+
+  </footer>
+    
+    
+    <script>
+        function myFunction(){
+            let x = document.getElementById("myInput")
+            let y = document.getElementById("hide1")
+            let z = document.getElementById("hide2")
+
+            if(x.type === 'password'){
+                x.type = "text";
+                y.style.display = "block";
+                z.style.display = "none"
+            }
+            else{
+                x.type = "password";
+                y.style.display = "none";
+                z.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
