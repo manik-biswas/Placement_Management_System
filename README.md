@@ -1,5 +1,5 @@
 MANIK BISWAS <br>
-manikbiswas1225@gmail.com <br>
+manikbiswas1225@gmail.com <br><br>
 The E- PLACEMENT is a web based application developed in windows
 platform for the placement department of the college in order to
 provide the details of its students in a database for the companies to
